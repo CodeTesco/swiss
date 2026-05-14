@@ -1,0 +1,290 @@
+[
+    {
+        "id": "P-001",
+        "name": "Bishop",
+        "rating": 1028,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-002",
+        "name": "botf_x",
+        "rating": 851,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-003",
+        "name": "Chibuikem",
+        "rating": 567,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-004",
+        "name": "Chuka",
+        "rating": 923,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-005",
+        "name": "Chuzzai",
+        "rating": 1453,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-006",
+        "name": "Cosmic Atomic",
+        "rating": 862,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-007",
+        "name": "Dapo",
+        "rating": 791,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-008",
+        "name": "DaramolaGB",
+        "rating": 1181,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-009",
+        "name": "Dante",
+        "rating": 1282,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-010",
+        "name": "David",
+        "rating": 271,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-011",
+        "name": "David_d7",
+        "rating": 2144,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-012",
+        "name": "easyGoingGuy",
+        "rating": 1756,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-0013",
+        "name": "Eke",
+        "rating": 598,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-014",
+        "name": "emmanuel_adeagbo",
+        "rating": 1189,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-015",
+        "name": "Feranz",
+        "rating": 1142,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-016",
+        "name": "g-anwuli",
+        "rating": 826,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-017",
+        "name": "Joseph",
+        "rating": 865,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-018",
+        "name": "Kdeen",
+        "rating": 539,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-019",
+        "name": "Maverick",
+        "rating": 1200,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-020",
+        "name": "Meme",
+        "rating": 146,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-021",
+        "name": "Mike",
+        "rating": 928,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-022",
+        "name": "Muna",
+        "rating": 823,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-023",
+        "name": "Nox",
+        "rating": 731,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-024",
+        "name": "Olayiwola",
+        "rating": 600,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-025",
+        "name": "petemz",
+        "rating": 1808,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-026",
+        "name": "SamInvader",
+        "rating": 729,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-027",
+        "name": "skinnyzee",
+        "rating": 723,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-028",
+        "name": "Stephen",
+        "rating": 2300,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-029",
+        "name": "Superstar",
+        "rating": 1039,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-030",
+        "name": "Taizen",
+        "rating": 1043,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-031",
+        "name": "Techy",
+        "rating": 1728,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-032",
+        "name": "Tesco",
+        "rating": 2116,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-033",
+        "name": "The Ostracized",
+        "rating": 1083,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-034",
+        "name": "thobbiz",
+        "rating": 1639,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-035",
+        "name": "trueartistee",
+        "rating": 1600,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    },
+    {
+        "id": "P-036",
+        "name": "xero",
+        "rating": 908,
+        "points": 0.0,
+        "played_against": [],
+        "active": true
+    }
+]

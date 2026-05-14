@@ -34,6 +34,7 @@ class Player:
 
 BASE_DIR = Path(__file__).resolve().parent
 TABLE_DATA = BASE_DIR / "league_standings.json"
+LIVE_LEAGUE_DATA = BASE_DIR.parent / "Frontend Projects/League Table/league_standings.json"
 
 def load_league_state():
     try:
@@ -46,6 +47,10 @@ def load_league_state():
 
 def save_league_state(players_list):
     with open(TABLE_DATA, "w") as file:
+        json_data = [player.to_dict() for player in players_list]
+        json.dump(json_data, file, indent=4)
+
+    with open(LIVE_LEAGUE_DATA, "w") as file:
         json_data = [player.to_dict() for player in players_list]
         json.dump(json_data, file, indent=4)
     print("League state saved successfully")
