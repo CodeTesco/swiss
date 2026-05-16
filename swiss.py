@@ -3,13 +3,18 @@ import json
 from pathlib import Path
 
 class Player:
-    def __init__(self, player_id, name, rating, points=0.0, played_against=None, active=True):
+    def __init__(self, player_id, name, rating, points=0.0, played_against=None, scores=[], active=True, opp_points=[], tb1=0, tb2=0, tb3=0):
         self.id = player_id
         self.name = name
         self.rating = rating
         self.points = points
         self.played_against = set(played_against) if played_against else set()
+        self.scores = scores
         self.active = active
+        self.opp_points = opp_points
+        self.tb1 = tb1
+        self.tb2 = tb2
+        self.tb3 = tb3
     
     def to_dict(self):
         return {
@@ -18,7 +23,12 @@ class Player:
             "rating": self.rating,
             "points": self.points,
             "played_against": list(self.played_against),
-            "active": self.active
+            "scores": list(self.scores),
+            "active": self.active,
+            "opp_points": list(self.opp_points),
+            "tb1": self.tb1,
+            "tb2": self.tb2,
+            "tb3": self.tb3
         }
 
     @classmethod
@@ -29,7 +39,12 @@ class Player:
             rating=data["rating"],
             points=data.get("points", 0.0),
             played_against=data.get("played_against", []),
-            active=data.get("active", True)
+            scores=data.get("scores", []),
+            active=data.get("active", True),
+            opp_points=data.get("opp_points", []),
+            tb1=data["tb1"],
+            tb2=data["tb2"],
+            tb3=data["tb3"]
         )
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -55,12 +70,39 @@ def save_league_state(players_list):
         json.dump(json_data, file, indent=4)
     print("League state saved successfully")
 
-def record_result(p1, p2, p1_score, p2_score):
+def record_result(p1, p2, p1_score, p2_score, player_list):
     p1.points += p1_score
     p2.points += p2_score
 
     p1.played_against.add(p2.id)
     p2.played_against.add(p1.id)
+
+    p1.scores.add(p1_score)
+    p2.scores.add(p2_score)
+
+    for player in player_list:
+        for opp in player_list:
+            if opp.points == player.points:
+                for opp_id, index in player.played_against:
+                    if opp.id == opp_id:
+                        player.tb1 += player.scores[index]
+
+    for player in player_list:
+        player.tb1 = 0
+        player_opp_points = []
+        for opp in player.played_against:
+            for opp_player in player_list:
+                if opp_player.id == opp:
+                    player_opp_points.append(opp_player.points)
+        player.opp_points = player_opp_points[:]
+        player_opp_points.sort(reverse=True)
+        if len(player_opp_points) > 0:
+            player_opp_points.pop()
+            player.tb2 = sum(player_opp_points)
+        if len(player_opp_points) > 0:
+            player_opp_points.pop()
+            player.tb3 = sum(player_opp_points)
+
 
 def calc_match_weight(p1, p2):
     if p2.id in p1.played_against or p1.id in p2.played_against:
@@ -136,7 +178,7 @@ def run_cli_updater():
                 print("Total points in a match cannot exceed 1.")
                 continue
                 
-            record_result(p1, p2, p1_score, p2_score)
+            record_result(p1, p2, p1_score, p2_score, players)
             print(f"Match recorded for {p1.name} [{p1_score}] vs [{p2_score}] {p2.name}")
             
         except ValueError:

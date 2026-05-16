@@ -5,7 +5,12 @@
         "rating": 1028,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "active": true,
+        "opp_points": [],
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-002",
@@ -13,7 +18,12 @@
         "rating": 851,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-003",
@@ -21,7 +31,12 @@
         "rating": 567,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-004",
@@ -29,7 +44,12 @@
         "rating": 923,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-005",
@@ -37,7 +57,12 @@
         "rating": 1453,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-006",
@@ -45,7 +70,12 @@
         "rating": 862,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-007",
@@ -53,7 +83,12 @@
         "rating": 791,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-008",
@@ -61,7 +96,12 @@
         "rating": 1181,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-009",
@@ -69,7 +109,12 @@
         "rating": 1282,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-010",
@@ -77,7 +122,12 @@
         "rating": 271,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-011",
@@ -85,7 +135,12 @@
         "rating": 2144,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-012",
@@ -93,7 +148,12 @@
         "rating": 1756,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-0013",
@@ -101,7 +161,12 @@
         "rating": 598,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-014",
@@ -109,7 +174,12 @@
         "rating": 1189,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-015",
@@ -117,7 +187,12 @@
         "rating": 1142,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-016",
@@ -125,7 +200,12 @@
         "rating": 826,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-017",
@@ -133,7 +213,12 @@
         "rating": 865,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-018",
@@ -141,7 +226,12 @@
         "rating": 539,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-019",
@@ -149,7 +239,12 @@
         "rating": 1200,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-020",
@@ -157,7 +252,12 @@
         "rating": 146,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-021",
@@ -165,7 +265,12 @@
         "rating": 928,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-022",
@@ -173,7 +278,12 @@
         "rating": 823,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-023",
@@ -181,7 +291,12 @@
         "rating": 731,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-024",
@@ -189,7 +304,12 @@
         "rating": 600,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-025",
@@ -197,7 +317,12 @@
         "rating": 1808,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-026",
@@ -205,7 +330,12 @@
         "rating": 729,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-027",
@@ -213,7 +343,12 @@
         "rating": 723,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-028",
@@ -221,7 +356,12 @@
         "rating": 2300,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-029",
@@ -229,7 +369,12 @@
         "rating": 1039,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-030",
@@ -237,7 +382,12 @@
         "rating": 1043,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-031",
@@ -245,7 +395,12 @@
         "rating": 1728,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-032",
@@ -253,7 +408,12 @@
         "rating": 2116,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-033",
@@ -261,7 +421,12 @@
         "rating": 1083,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-034",
@@ -269,7 +434,12 @@
         "rating": 1639,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-035",
@@ -277,7 +447,12 @@
         "rating": 1600,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     },
     {
         "id": "P-036",
@@ -285,6 +460,11 @@
         "rating": 908,
         "points": 0.0,
         "played_against": [],
-        "active": true
+        "scores": [],
+        "opp_points": [],
+        "active": true,
+        "tb1": 0,
+        "tb2": 0,
+        "tb3": 0
     }
 ]
