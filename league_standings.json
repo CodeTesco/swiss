@@ -4,12 +4,21 @@
         "name": "Bishop",
         "rating": 1028,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-029",
+            "P-029"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
@@ -17,12 +26,21 @@
         "name": "botf_x",
         "rating": 851,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-006",
+            "P-006"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
@@ -30,116 +48,197 @@
         "name": "Chibuikem",
         "rating": 567,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-018",
+            "P-018"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            0.0,
+            0.0
+        ],
+        "tb1": 0.0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-004",
         "name": "Chuka",
         "rating": 923,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.5,
+        "played_against": [
+            "P-021",
+            "P-021"
+        ],
+        "scores": [
+            0.5,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.5,
+            0.5
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.5,
         "tb3": 0
     },
     {
         "id": "P-005",
         "name": "Chuzzai",
         "rating": 1453,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-009",
+            "P-009"
+        ],
+        "scores": [
+            1.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-006",
         "name": "Cosmic Atomic",
         "rating": 862,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-002",
+            "P-002"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-007",
         "name": "Dapo",
         "rating": 791,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-023",
+            "P-023"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-008",
         "name": "DaramolaGB",
         "rating": 1181,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-015",
+            "P-015"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-009",
         "name": "Dante",
         "rating": 1282,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-005",
+            "P-005"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-010",
         "name": "David",
         "rating": 271,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-020",
+            "P-020"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-011",
         "name": "David_d7",
         "rating": 2144,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-028",
+            "P-028"
+        ],
+        "scores": [
+            1.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
@@ -147,12 +246,21 @@
         "name": "easyGoingGuy",
         "rating": 1756,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-031",
+            "P-031"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
@@ -160,25 +268,43 @@
         "name": "Eke",
         "rating": 598,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-024",
+            "P-024"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
         "id": "P-014",
         "name": "emmanuel_adeagbo",
         "rating": 1189,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-019",
+            "P-019"
+        ],
+        "scores": [
+            1.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
@@ -186,38 +312,65 @@
         "name": "Feranz",
         "rating": 1142,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-008",
+            "P-008"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            1.0,
+            1.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-016",
         "name": "g-anwuli",
         "rating": 826,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-022",
+            "P-022"
+        ],
+        "scores": [
+            1.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-017",
         "name": "Joseph",
         "rating": 865,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-036",
+            "P-036"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
@@ -225,25 +378,43 @@
         "name": "Kdeen",
         "rating": 539,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-003",
+            "P-003"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            0.0,
+            0.0
+        ],
+        "tb1": 0.0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-019",
         "name": "Maverick",
         "rating": 1200,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-014",
+            "P-014"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
@@ -251,38 +422,65 @@
         "name": "Meme",
         "rating": 146,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-010",
+            "P-010"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
         "id": "P-021",
         "name": "Mike",
         "rating": 928,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 0.5,
+        "played_against": [
+            "P-004",
+            "P-004"
+        ],
+        "scores": [
+            0.5,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            1.5,
+            1.5
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 1.5,
         "tb3": 0
     },
     {
         "id": "P-022",
         "name": "Muna",
         "rating": 823,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-016",
+            "P-016"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
@@ -290,25 +488,43 @@
         "name": "Nox",
         "rating": 731,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-007",
+            "P-007"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
         "id": "P-024",
         "name": "Olayiwola",
         "rating": 600,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-0013",
+            "P-0013"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
@@ -316,12 +532,21 @@
         "name": "petemz",
         "rating": 1808,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-032",
+            "P-032"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
@@ -329,64 +554,109 @@
         "name": "SamInvader",
         "rating": 729,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-027",
+            "P-027"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
         "id": "P-027",
         "name": "skinnyzee",
         "rating": 723,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-026",
+            "P-026"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-028",
         "name": "Stephen",
         "rating": 2300,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-011",
+            "P-011"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-029",
         "name": "Superstar",
         "rating": 1039,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-001",
+            "P-001"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-030",
         "name": "Taizen",
         "rating": 1043,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-033",
+            "P-033"
+        ],
+        "scores": [
+            0.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
@@ -394,51 +664,87 @@
         "name": "Techy",
         "rating": 1728,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-012",
+            "P-012"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-032",
         "name": "Tesco",
         "rating": 2116,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-025",
+            "P-025"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
         "id": "P-033",
         "name": "The Ostracized",
         "rating": 1083,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 1.0,
+        "played_against": [
+            "P-030",
+            "P-030"
+        ],
+        "scores": [
+            1.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
-        "tb1": 0,
-        "tb2": 0,
+        "opp_points": [
+            1.0,
+            1.0
+        ],
+        "tb1": 1.0,
+        "tb2": 1.0,
         "tb3": 0
     },
     {
         "id": "P-034",
         "name": "thobbiz",
         "rating": 1639,
-        "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "points": 2.0,
+        "played_against": [
+            "P-035",
+            "P-035"
+        ],
+        "scores": [
+            1.0,
+            1.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            0.0,
+            0.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 0.0,
         "tb3": 0
     },
     {
@@ -446,12 +752,21 @@
         "name": "trueartistee",
         "rating": 1600,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-034",
+            "P-034"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     },
     {
@@ -459,12 +774,21 @@
         "name": "xero",
         "rating": 908,
         "points": 0.0,
-        "played_against": [],
-        "scores": [],
+        "played_against": [
+            "P-017",
+            "P-017"
+        ],
+        "scores": [
+            0.0,
+            0.0
+        ],
         "active": true,
-        "opp_points": [],
+        "opp_points": [
+            2.0,
+            2.0
+        ],
         "tb1": 0,
-        "tb2": 0,
+        "tb2": 2.0,
         "tb3": 0
     }
 ]
