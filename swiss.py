@@ -3,12 +3,12 @@ import json
 from pathlib import Path
 
 class Player:
-    def __init__(self, player_id, name, rating, points=0.0, played_against=None, scores=[], active=True, opp_points=[], tb1=0, tb2=0, tb3=0):
+    def __init__(self, player_id, name, rating, points=0.0, played_against=[], scores=[], active=True, opp_points=[], tb1=0, tb2=0, tb3=0):
         self.id = player_id
         self.name = name
         self.rating = rating
         self.points = points
-        self.played_against = set(played_against) if played_against else set()
+        self.played_against = played_against
         self.scores = scores
         self.active = active
         self.opp_points = opp_points
@@ -74,21 +74,21 @@ def record_result(p1, p2, p1_score, p2_score, player_list):
     p1.points += p1_score
     p2.points += p2_score
 
-    p1.played_against.add(p2.id)
-    p2.played_against.add(p1.id)
-
-    p1.scores.add(p1_score)
-    p2.scores.add(p2_score)
+    p1.played_against.append(p2.id)
+    p2.played_against.append(p1.id)
+    
+    p1.scores.append(p1_score)
+    p2.scores.append(p2_score)
 
     for player in player_list:
+        player.tb1 = 0
         for opp in player_list:
             if opp.points == player.points:
-                for opp_id, index in player.played_against:
+                for index, opp_id in enumerate(player.played_against):
                     if opp.id == opp_id:
                         player.tb1 += player.scores[index]
 
     for player in player_list:
-        player.tb1 = 0
         player_opp_points = []
         for opp in player.played_against:
             for opp_player in player_list:
@@ -96,13 +96,12 @@ def record_result(p1, p2, p1_score, p2_score, player_list):
                     player_opp_points.append(opp_player.points)
         player.opp_points = player_opp_points[:]
         player_opp_points.sort(reverse=True)
-        if len(player_opp_points) > 0:
-            player_opp_points.pop()
-            player.tb2 = sum(player_opp_points)
-        if len(player_opp_points) > 0:
-            player_opp_points.pop()
-            player.tb3 = sum(player_opp_points)
+        
+        player_opp_points = player_opp_points[:-1]
+        player.tb2 = sum(player_opp_points) if len(player_opp_points) > 0 else 0
 
+        player_opp_points = player_opp_points[:-1]
+        player.tb3 = sum(player_opp_points) if len(player_opp_points) > 0 else 0
 
 def calc_match_weight(p1, p2):
     if p2.id in p1.played_against or p1.id in p2.played_against:
