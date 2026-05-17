@@ -48,7 +48,7 @@ class Player:
         )
 
 BASE_DIR = Path(__file__).resolve().parent
-TABLE_DATA = BASE_DIR / "league_standings.json"
+TABLE_DATA = BASE_DIR.parent / "league_standings.json"
 LIVE_LEAGUE_DATA = BASE_DIR.parent / "Frontend Projects/League Table/league_standings.json"
 
 def load_league_state():
